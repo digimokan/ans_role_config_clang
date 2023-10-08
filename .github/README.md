@@ -53,7 +53,7 @@ Install and configure the clang C/C++ compiler.
        - name: "Install and configure the clang C/C++ compiler"
          ansible.builtin.include_role:
            name: ans_role_config_clang
-           public: yes
+           public: true
    ```
 
 ## Role Options
